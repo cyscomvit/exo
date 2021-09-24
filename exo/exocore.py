@@ -101,6 +101,9 @@ class ExoCore:
         status, count = self.callEnzoicAPI(password)
         score = self.scoreCalculate(password)
         
-        return (DecisionTreePredict[0], LogisticRegressionPredict[0], NaiveBayesPredict[0], NeuralNetworkPredict[0], status, count, score)
-    
+        response = {0: "Weak", 1: "Moderate", 2: "Strong"}
+        
+        result = {"password": password, "score": score, "DecisionTree": {"score": DecisionTreePredict[0], "response": response[DecisionTreePredict[0]]}, "LogisticRegression": {"score": LogisticRegressionPredict[0], "response": response[LogisticRegressionPredict[0]]}, "NaiveBayes": {"score": NaiveBayesPredict[0], "response": response[NaiveBayesPredict[0]]}, "NeuralNetwork": {"score": NeuralNetworkPredict[0], "response": response[NeuralNetworkPredict[0]]}, "Breached": status, "BreachCount": count}
+        
+        return result
 
