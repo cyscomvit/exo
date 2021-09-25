@@ -5,7 +5,7 @@ with open('README.md') as readme_file:
 
 setup_args = dict(
     name='exopassword',
-    version='0.0.7',
+    version='0.0.8',
     description='ExoPassword is a Password Strength Analyzing module that combines Machine Learning, rule-based scoring, and breach detection to provide detailed insight regarding your passwords.',
     long_description_content_type="text/markdown",
     long_description=README + '\n\n',
@@ -14,7 +14,7 @@ setup_args = dict(
     author='Apratim Shukla, Mayank Tolani',
     author_email='apratimshukla6@gmail.com',
     keywords=['Exo', 'ExoPassword', 'PasswordAnalysis'],
-    url='https://github.com/apratimshukla6/exo',
+    url='https://github.com/owaspvit/exo',
     download_url='https://pypi.org/project/exopassword/'
 )
 
