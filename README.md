@@ -9,7 +9,7 @@
     <a href="https://github.com/owaspvit/exo/actions"><img src="https://github.com/owaspvit/exo/actions/workflows/python-package.yml/badge.svg" alt="Python Package Test" /></a>
     <a href="https://pypi.org/project/exopassword/"><img src="https://img.shields.io/pypi/format/exopassword" alt="format" /></a>
     <a href="https://github.com/owaspvit/exo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/owaspvit/exo?color=red" alt="LICENSE" /></a>
-    <a href="https://pepy.tech/project/exopassword"><img src="https://static.pepy.tech/personalized-badge/exopassword?period=month&units=international_system&left_color=grey&right_color=yellow&left_text=Downloads" alt="Downloads" /></a>
+    <a href="https://pepy.tech/project/exopassword"><img src="https://pepy.tech/badge/exopassword" alt="Downloads" /></a>
     <a href="https://pepy.tech/project/exopassword"><img src="https://pepy.tech/badge/exopassword/week" alt="Downloads/week" /></a>
     <a href="https://github.com/owaspvit/exo/issues"><img src="https://camo.githubusercontent.com/f5054ffcd4245c10d3ec85ef059e07aacf787b560f83ad4aec2236364437d097/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e747269627574696f6e732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c6174" alt="Contributions" /></a>
   </p>
