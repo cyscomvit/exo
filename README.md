@@ -26,6 +26,7 @@ ExoPassword is a Password Strength Analyzing module that combines Machine Learni
 ## Installation
 
 **Python3 is required.**  
+
 Open `terminal` and execute:
 ```shell
 pip install exopassword
